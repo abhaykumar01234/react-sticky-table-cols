@@ -1,0 +1,31 @@
+.cta {
+  border: none;
+  outline: none;
+  display: grid;
+  place-items: center;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+
+  svg {
+    fill: grey;
+  }
+
+  &:hover,
+  &:focus {
+    background: lightgray;
+
+    svg {
+      fill: #333;
+    }
+  }
+}
+
+.popper {
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  z-index: 20;
+}
